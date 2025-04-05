@@ -2,11 +2,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class TicTacToeGUI extends JFrame implements ActionListener {
+public class P5_Tic_Tac_Toe_Game extends JFrame implements ActionListener {
     private JButton[][] buttons = new JButton[3][3];
     private char currentPlayer = 'X';
 
-    public TicTacToeGUI() {
+    public P5_Tic_Tac_Toe_Game() {
         setTitle("Tic-Tac-Toe Game");
         setSize(400, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
