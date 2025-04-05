@@ -81,7 +81,6 @@ public class P5_Tic_Tac_Toe_Game extends JFrame implements ActionListener {
         }
         currentPlayer = 'X';
     }
-
     public static void main(String[] args) {
         new TicTacToeGUI();
     }
